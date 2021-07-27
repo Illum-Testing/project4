@@ -34,18 +34,18 @@ body {
   0% {
     transform: rotate(0deg);
     opacity: 0%;
-    width: 150px;
-    height: 150px;
+    width: 25%;
+    height: 25%;
   }
   70% {
     transform: rotate(360deg);
     opacity: 100%;
-    width: 280px;
-    height: 280px;
+    width: 50%;
+    height: 50%;
   }
   100% {
-    width: 250px;
-    height: 250px;
+    width: 45%;
+    height: 45%;
   }
 }
 
@@ -70,19 +70,19 @@ body {
   0% {
     transform: rotate(0deg);
     opacity: 0%;
-    width: 170px;
-    height: 170px;
+    width: 25%;
+    height: 25%;
   }
   70% {
-    transform: rotate(720deg);
+    transform: rotate(360deg);
     opacity: 100%;
-    width: 300px;
-    height: 300px;
+    width: 55%;
+    height: 55%;
   }
   100% {
     transform: rotate(20deg);
-    width: 270px;
-    height: 270px;
+    width: 50%;
+    height: 50%;
   }
 }
 
