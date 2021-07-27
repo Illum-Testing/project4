@@ -75,8 +75,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  right:50%;
-  left:50%;
+  top: 0;
+  right: 40%;
+  left: 40%;
   animation: lin 5s 1s forwards, lin2 2s 6s forwards;
 }
 
@@ -112,10 +113,9 @@ body {
   }
 }
 
-h1 {
-  opacity: 0%;
-}
-
-p {
-  opacity: 0%;
+over {
+  top: 0;
+  border: 2px inline black;
+  box-shadow: 0px 0px 5px white;
+  opacity: 10%;
 }
