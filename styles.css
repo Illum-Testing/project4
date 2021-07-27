@@ -22,12 +22,13 @@ body {
     background-color: aquamarine;
   }
 }
-
-.intro {
+.parent {
   display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+.intro {
   animation: intr 5s 1s forwards, intr2 4s 6s forwards;
 }
 
@@ -61,9 +62,6 @@ body {
 }
 
 .line {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
   animation: lin 5s 1s forwards, lin2 4s 6s forwards;
 }
