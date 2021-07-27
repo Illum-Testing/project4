@@ -39,12 +39,12 @@ body {
     height: 25%;
   }
   70% {
-    transform: rotate(360deg);
     opacity: 100%;
     width: 50%;
     height: 50%;
   }
   100% {
+    transform: rotate(360deg);
     width: 45%;
     height: 45%;
   }
@@ -76,13 +76,12 @@ body {
     height: 25%;
   }
   70% {
-    transform: rotate(360deg);
     opacity: 100%;
     width: 55%;
     height: 55%;
   }
   100% {
-    transform: rotate(20deg);
+    transform: rotate(380deg);
     width: 50%;
     height: 50%;
   }
