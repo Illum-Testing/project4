@@ -29,6 +29,7 @@ body {
   position: relative;
 }
 .intro {
+  z-index: 1;
   animation: intr 5s 1s forwards, intr2 4s 6s forwards;
 }
 
@@ -62,7 +63,7 @@ body {
 }
 
 .line {
-  position: absolute;
+  z-index: -1;
   animation: lin 5s 1s forwards, lin2 4s 6s forwards;
 }
 
