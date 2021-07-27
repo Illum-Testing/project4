@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  animation: change 5s 10s forwards, extra 5s 10s infinite forwards;
+  animation: change 5s 5s forwards, extra 5s 10s infinite forwards;
 }
 @keyframes change {
   0% {
@@ -22,12 +22,11 @@ body {
     background-color: aquamarine;
   }
 }
-.parent {
+.intro {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.intro {
+  position:relative;
   z-index: 1;
   animation: intr 5s 1s forwards, intr2 4s 6s forwards;
 }
@@ -62,6 +61,10 @@ body {
 }
 
 .line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
   z-index: -1;
   animation: lin 5s 1s forwards, lin2 4s 6s forwards;
 }
