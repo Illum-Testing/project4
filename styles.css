@@ -27,9 +27,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position: relative
+  position: relative;
 }
 .intro {
+  position: relative;
   z-index: 1;
   animation: intr 5s 1s forwards, intr2 3s 6s forwards;
 }
@@ -60,8 +61,8 @@ body {
   }
   100% {
     transform: rotate(-360deg);
-    width: 480px;
-    height: 480px;
+    width: 210px;
+    height: 210px;
     opacity:0%;
   }
 }
@@ -100,8 +101,8 @@ body {
   }
   100% {
     transform: rotate(-380deg);
-    width: 500px;
-    height: 500px;
+    width: 230px;
+    height: 230px;
     opacity:0%;
   }
 }
