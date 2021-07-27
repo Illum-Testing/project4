@@ -23,6 +23,7 @@ body {
   }
 }
 .intro {
+  top: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -51,14 +52,19 @@ body {
 
 @keyframes intr2 {
   0% {
+    transform: rotate(-360deg);
     opacity:100%;
   }
   100% {
+    transform: rotate(-360deg);
+    width: 480px;
+    height: 480px;
     opacity:0%;
   }
 }
 
 .line {
+  top: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -87,9 +93,13 @@ body {
 
 @keyframes lin2 {
   0% {
+    transform: rotate(-380deg);
     opacity:100%;
   }
   100% {
+    transform: rotate(-380deg);
+    width: 500px;
+    height: 500px;
     opacity:0%;
   }
 }
