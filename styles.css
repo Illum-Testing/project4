@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  animation: change 5s 10s forwards, extra 5s 10s infinite forwards;
+}
+@keyframes change {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: aquamarine;
+  }
+}
+
+@keyframes extra {
+  0% {
+    background-color: aquamarine;
+  }
+  50% {
+    background-color: chartreuse;
+  }
+  100% {
+    background-color: aquamarine;
+  }
+}
+
+.intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: intr 5s 1s forwards, intr2 4s 6s forwards;
+}
+
+@keyframes intr {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0%;
+    width: 150px;
+    height: 150px;
+  }
+  70% {
+    transform: rotate(360deg);
+    opacity: 100%;
+    width: 280px;
+    height: 280px;
+  }
+  100% {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@keyframes intr2 {
+  0% {
+    opacity:100%;
+  }
+  100% {
+    transform: rotate(20deg);
+    opacity:0%;
+  }
+}
+
+.line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: lin 5s 1s forwards, lin2 4s 6s forwards;
+}
+
+@keyframes lin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0%;
+    width: 170px;
+    height: 170px;
+  }
+  70% {
+    transform: rotate(720deg);
+    opacity: 100%;
+    width: 300px;
+    height: 300px;
+  }
+  100% {
+    transform: rotate(20deg);
+    width: 270px;
+    height: 270px;
+  }
+}
+
+@keyframes lin2 {
+  0% {
+    opacity:100%;
+  }
+  100% {
+    transform: rotate(20deg);
+    opacity:0%;
+  }
+}
+
+h1 {
+  opacity: 0%;
+}
+
+p {
+  opacity: 0%;
+}
