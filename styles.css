@@ -119,9 +119,20 @@ body {
   border: 2px inline black;
   box-shadow: 0px 0px 5px white;
   opacity: 10%;
+  animation: over1 4s 9s forwards;
 }
 
+}
 .logo {
   width: 50px;
   height: auto;
 }
+
+
+@keyframes over1 {
+  0% {
+    opacity:100%;
+  }
+  100% {
+    opacity:0%;
+  }
