@@ -22,11 +22,14 @@ body {
     background-color: aquamarine;
   }
 }
-.intro {
+.both {
   top: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  position: relative
+}
+.intro {
   z-index: 1;
   animation: intr 5s 1s forwards, intr2 3s 6s forwards;
 }
@@ -64,10 +67,9 @@ body {
 }
 
 .line {
-  top: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  right:50%;
+  left:50%;
   z-index: -1;
   animation: lin 5s 1s forwards, lin2 2s 6s forwards;
 }
