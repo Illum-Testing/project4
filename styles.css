@@ -112,8 +112,7 @@ body {
   position: fixed;
   top: 0;
   background-color: black;
-  background-size: cover;
-  height: 50px;
+  background-size: 100% auto;
   box-shadow: 0px 0px 5px black;
   opacity: 0%;
   animation: over1 4s 9s forwards;
@@ -122,6 +121,7 @@ body {
 .text {
   text-align: left;
   color: chartreuse;
+  font-family: helvetica;
   font-size: 24px;
 }
 
@@ -137,5 +137,5 @@ body {
     opacity:0%;
   }
   100% {
-    opacity:70%;
+    opacity:100%;
   }
