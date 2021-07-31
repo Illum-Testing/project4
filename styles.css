@@ -63,9 +63,6 @@ body {
     opacity:100%;
   }
   100% {
-    transform: rotate(-360deg);
-    width: 180px;
-    height: 180px;
     opacity:0%;
   }
 }
@@ -107,8 +104,6 @@ body {
   }
   100% {
     transform: rotate(-380deg);
-    width: 200px;
-    height: 200px;
     opacity:0%;
   }
 }
@@ -117,9 +112,17 @@ body {
   position: fixed;
   top: 0;
   background-color: black;
+  background-size: cover;
+  height: 50px;
   box-shadow: 0px 0px 5px black;
   opacity: 0%;
   animation: over1 4s 9s forwards;
+}
+
+.text {
+  text-align: left;
+  color: chartreuse;
+  font-size: 24px;
 }
 
 }
@@ -134,5 +137,5 @@ body {
     opacity:0%;
   }
   100% {
-    opacity:100%;
+    opacity:70%;
   }
