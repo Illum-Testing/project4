@@ -121,7 +121,7 @@ body {
 
 .text {
   text-align: left;
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
   font-family: helvetica;
   font-size: 24px;
 }
