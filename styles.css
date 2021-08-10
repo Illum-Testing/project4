@@ -111,11 +111,11 @@ body {
 .over {
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
   left: 0;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 5px black;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 5px white;
   opacity: 0%;
   animation: over1 4s 9s forwards;
 }
