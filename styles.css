@@ -111,6 +111,9 @@ body {
 .over {
   position: fixed;
   top: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 20px;
   background-color: rgba(0, 0, 0, 0.2);
   background-size: 100% 52px;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -121,9 +124,6 @@ body {
 
 .text {
   left: 75px;
-  color: rgba(0, 0, 0, 0.5);
-  font-family: Montserrat;
-  font-size: 20px;
 }
 
 @font-face {
