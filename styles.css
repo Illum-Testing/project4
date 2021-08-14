@@ -151,6 +151,8 @@ body {
 }
 
 div.picture {
+  width: 150px;
+  height: 150px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -158,6 +160,7 @@ div.picture {
   opacity: 0%;
   color: rgba(0, 0, 0, 0);
   animation: pic 5s 9s forwards;
+  transition: 0.2s;
 }
 
 @keyframes pic {
@@ -173,15 +176,15 @@ div.picture {
 
 div.contain {
   opacity: 0%;
-  rgba(0, 0, 0, 0.5)
+  color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  padding: 10px 20px;
+  font-size: 11px;
   font-family: Montserrat;
+  transition: 0.4s;
 }
 
 div.picture:hover {
-  margin-bottom: 25px;
-  color: rgba(0, 0, 0, 0.5);
+  height: 200px;
   }
 
 div.contain:hover {
