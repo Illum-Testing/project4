@@ -153,6 +153,8 @@ body {
 div.all {
   opacity: 0%;
   animation: pic 5s 9s forwards;
+  position: relative;
+  white-space: nowrap;
 }
 
 @keyframes pic {
@@ -166,19 +168,19 @@ div.all {
   }
 }
 
-div.image {
-  top: -120px;
+.image {
   width: 150px;
   height: 150px;
+  margin: 80px 0px 50px 0px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 30px 30px 0 0;
   transition: 0.2s;
 }
 
-div.contain {
+.contain {
   opacity: 0%;
+  margin: 80px 0px 50px 0px;
   color: rgba(0, 0, 0, 1);
   text-align: center;
   font-size: 11px;
@@ -186,11 +188,11 @@ div.contain {
   transition: 0.2s;
 }
 
-div.image:hover {
+.image:hover {
   height: 200px;
   }
 
-div.image:hover~div.contain {
+.image:hover~.contain {
   opacity:100%;
   }
 
