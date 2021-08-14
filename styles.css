@@ -168,7 +168,6 @@ div.all {
 }
 
 div.image {
-  top: 80px;
   width: 150px;
   height: 150px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -177,6 +176,19 @@ div.image {
   margin-bottom: 0px;
   color: rgba(0, 0, 0, 0);
   transition: 0.2s;
+}
+
+.a, .b, .c {
+  position: relative;
+  top: -120px;
+}
+
+.b {
+  left: 180px;
+}
+
+.c {
+  left: 360px;
 }
 
 div.contain {
@@ -192,6 +204,7 @@ div.image:hover {
   height: 200px;
   }
 
-div.image:hover~div.contain {
+div.image.a:hover~div.contain.a, div.image.b:hover~div.contain.b, div.image.c:hover~div.contain.c {
   opacity:100%;
   }
+
