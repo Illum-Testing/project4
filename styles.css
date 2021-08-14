@@ -151,6 +151,7 @@ body {
 }
 
 div.all {
+  opacity: 0%;
   animation: pic 5s 9s forwards;
   position: relative;
 }
@@ -174,7 +175,6 @@ div.image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 0px;
-  opacity: 0%;
   color: rgba(0, 0, 0, 0);
   transition: 0.2s;
 }
