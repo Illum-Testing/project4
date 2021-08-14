@@ -181,13 +181,13 @@ div.contain {
   text-align: center;
   font-size: 11px;
   font-family: Montserrat;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 div.picture:hover {
   height: 200px;
   }
 
-div.contain:hover {
+div.picture:hover + div.contain {
   opacity:100%;
   }
