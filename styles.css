@@ -152,7 +152,6 @@ body {
 
 div.all {
   opacity: 0%;
-  display:none;
   animation: pic 5s 9s forwards;
   position: relative;
   white-space: nowrap;
@@ -161,12 +160,10 @@ div.all {
 @keyframes pic {
   0% {
     opacity: 0%;
-    display:none;
     transform: rotateY(180deg);
   }
   100% {
     opacity: 100%;
-    display:block;
     transform: rotateY(0deg);
   }
 }
@@ -183,7 +180,6 @@ div.all {
 
 .contain {
   opacity: 0%;
-  display:none;
   margin: 80px 0px 50px 0px;
   width: 150px;
   height: 50px;
@@ -199,7 +195,6 @@ div.all {
   }
 
 #a:hover~#a1, #b:hover~#b1, #c:hover~#c1 {
-  display:block;
   opacity:100%;
   }
 
