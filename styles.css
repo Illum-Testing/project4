@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
   background-color: black;
   animation: change 5s 5s forwards, extra 5s 10s infinite forwards;
@@ -124,16 +126,12 @@ body {
 
 .text {
   color: rgba(0, 0, 0, 0.5);
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   left: 75px;
   position: relative;
 }
 
-@font-face {
-  font-family: Montserrat;
-  src: url(Montserrat-ExtraLight.ttf);
-}
 
 .logo {
   top: 0;
@@ -201,7 +199,7 @@ div.all {
   position: relative;
   left: -4.6%;
   display: inline;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   transition: 0.2s;
   z-index: 2;
 }
