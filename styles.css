@@ -109,6 +109,7 @@ body {
 }
 
 .over {
+  z-index: 2;
   position: fixed;
   top: 0;
   background-color: rgba(255, 255, 255, 0.5);
@@ -171,41 +172,47 @@ div.all {
 .image {
   width: 150px;
   height: 150px;
-  margin: 80px 0px 50px 0px;
+  margin: 0px 50px 0px 0px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px;
   display: block;
-  padding-bottom: 0px;
+  float: left;
+  position: relative;
+  top: -120px;
+  padding-bottom: 10px;
   transition: 0.2s;
 }
 
 .contain {
-  margin: 0px 0px 50px 0px;
+  margin: 0px 50px 0px 0px;
   width: 150px;
   height: 50px;
   color: rgba(0, 0, 0, 1);
   text-align: center;
   font-size: 11px;
+  float: left;
+  position: relative;
+  left: -49.5%;
   display: block;
   font-family: Montserrat;
   transition: 0.2s;
 }
 
 #a, #b, #c {
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 #a1, #b1, #c1 {
-  opacity: 0%
+  opacity: 0%;
 }
 
 #a:hover, #b:hover, #c:hover {
   padding-bottom: 50px;
-  }
+}
 
 #a:hover~#a1, #b:hover~#b1, #c:hover~#c1 {
   opacity:100%;
-  }
+}
 
