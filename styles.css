@@ -111,10 +111,10 @@ body {
 .over {
   position: fixed;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
   left: 0;
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: 0px 0px 5px white;
   opacity: 0%;
   animation: over1 4s 9s forwards;
@@ -151,12 +151,13 @@ body {
 }
 
 div.picture {
-  width: 20%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 0px;
+  opacity: 0%;
   color: rgba(0, 0, 0, 0);
-  animation: pic 5s 9s forwards:
+  animation: pic 5s 9s forwards;
 }
 
 @keyframes pic {
@@ -171,11 +172,18 @@ div.picture {
 }
 
 div.contain {
+  opacity: 0%;
+  rgba(0, 0, 0, 0.5)
   text-align: center;
   padding: 10px 20px;
+  font-family: Montserrat;
 }
 
 div.picture:hover {
   margin-bottom: 25px;
   color: rgba(0, 0, 0, 0.5);
+  }
+
+div.contain:hover {
+  opacity:100%;
   }
