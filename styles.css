@@ -209,11 +209,8 @@ div.all {
   top: 60px;
 }
 
-#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover {
-  padding-bottom: 50px;
-}
-
-#a:hover~#a1 {
+#a:hover ~ #a1, #b:hover ~ #b1, #c:hover ~ #c1, #d:hover ~ #d1, #e:hover ~ #e1, #f:hover ~ #f1 {
   opacity:100%;
+  padding-bottom: 50px;
 }
 
