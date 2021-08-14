@@ -175,7 +175,7 @@ div.all {
 .image {
   width: 150px;
   height: 150px;
-  margin: 0px -88px 0px 0px;
+  margin: 0px -100px 0px 0px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.8);
@@ -198,7 +198,7 @@ div.all {
   font-size: 11px;
   float: left;
   position: relative;
-  left: -5.5%;
+  left: -4.6%;
   display: inline;
   font-family: Montserrat;
   transition: 0.2s;
