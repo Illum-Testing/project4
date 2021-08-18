@@ -220,6 +220,10 @@ body {
   top: -18px;
 }
 
+#a1, #b1, #c1, #d1, #e1, #f1 {
+  opacity: 0%;
+}
+
 #a:hover,
 #b:hover,
 #c:hover,
